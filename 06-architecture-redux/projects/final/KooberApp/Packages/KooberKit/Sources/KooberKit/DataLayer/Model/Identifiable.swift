@@ -1,6 +1,5 @@
 import Foundation
 
 protocol Identifiable {
-  
-  var id: String { get }
+    var id: String { get }
 }

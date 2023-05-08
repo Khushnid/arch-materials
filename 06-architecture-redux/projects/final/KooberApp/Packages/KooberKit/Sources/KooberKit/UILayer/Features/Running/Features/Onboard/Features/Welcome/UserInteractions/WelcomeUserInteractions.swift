@@ -1,7 +1,6 @@
 import Foundation
 
 public protocol WelcomeUserInteractions {
-  
-  func goToSignUp()
-  func goToSignIn()
+    func goToSignUp()
+    func goToSignIn()
 }

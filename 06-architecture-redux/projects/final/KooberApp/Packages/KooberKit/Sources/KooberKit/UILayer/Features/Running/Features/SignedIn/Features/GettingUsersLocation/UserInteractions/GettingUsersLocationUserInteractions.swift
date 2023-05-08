@@ -1,9 +1,7 @@
-
-
 import Foundation
 
 public protocol GettingUsersLocationUserInteractions {
-  
-  func getUsersLocation()
-  func finishedPresenting(_ errorMessage: ErrorMessage)
+    
+    func getUsersLocation()
+    func finishedPresenting(_ errorMessage: ErrorMessage)
 }

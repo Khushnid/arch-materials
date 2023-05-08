@@ -1,8 +1,5 @@
-
-
 import Foundation
 
 public protocol UserSessionStatePersister {
-
-  func startPersistingStateChanges(to userSessionDataStore: UserSessionDataStore)
+    func startPersistingStateChanges(to userSessionDataStore: UserSessionDataStore)
 }

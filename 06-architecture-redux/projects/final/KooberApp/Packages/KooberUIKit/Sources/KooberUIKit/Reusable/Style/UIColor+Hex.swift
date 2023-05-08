@@ -2,7 +2,7 @@ import CoreGraphics
 import UIKit
 
 extension UIColor {
-
+    
     /// Hex sRGB color initializer.
     ///
     /// - parameter hex: Pass in a sRGB color integer using hex notation, i.e. 0xFFFFFF. Make sure to only include 6 hex digits.
@@ -18,7 +18,7 @@ extension UIColor {
         let blue = (hex & 0x0000FF)
         self.init(red: red, green: green, blue: blue)
     }
-
+    
     /// RGB integer color initializer.
     ///
     /// - parameter red:   Red component as integer. In iOS 9 or below, this value should be between 0 and 255. iOS 10

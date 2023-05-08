@@ -4,8 +4,8 @@ import PromiseKit
 public typealias AuthToken = String
 
 public protocol UserSessionDataStore {
-  
-  func readUserSession() -> Promise<UserSession?>
-  func save(userSession: UserSession) -> Promise<UserSession>
-  func deleteUserSession() -> Promise<Void>
+    
+    func readUserSession() -> Promise<UserSession?>
+    func save(userSession: UserSession) -> Promise<UserSession>
+    func deleteUserSession() -> Promise<Void>
 }
